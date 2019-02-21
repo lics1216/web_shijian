@@ -1,0 +1,113 @@
+.html-body {
+  background-color: #f5f7f9;
+}
+
+.blog-container {
+  width: 800px;
+  height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-head {
+  width: 100%;
+  height: 70px;
+  background-color: #dbdbdb;
+  color: #000;
+  margin-bottom: 30px;
+}
+.blog-head .text-tips {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.blog-body {
+  width: 100%;
+  flex: 1;
+  display: flex;
+}
+
+.blog-body .blog-message {
+  height: 661px;
+  margin-right: 40px;
+  flex: 0 0 25%;
+}
+
+.blog-message .blog-navigation {
+ flex: 1 1 30%;
+ margin-bottom: 20px;
+ background-color: #ffffff;
+ padding: 10px;
+}
+
+.blog-navigation .nav-home {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.blog-navigation .nav-home .img {
+ margin-left: 10px;
+}
+
+.blog-navigation .nav-home .text {
+ margin-left: 10px;
+}
+
+
+.blog-message .profile-sorts {
+ flex: 1 1 60%;
+ background-color: #ffffff;
+ padding: 20px 10px 10px 10px;
+}
+
+.profile-sorts  .content-sort{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.content-sort .sort {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-sorts .author-contact {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+
+.blog-body .blog-content {
+  height: 800px;
+  background-color: #ffffff;
+}
+
+.blog-content .content {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  margin: 20px;
+}
+
+
+.blog-content .content .content-title {
+  margin-bottom: 10px;
+}
+
+.blog-content .content .content-about {
+  margin-bottom: 30px;
+}
+
+.blog-content .content .content-brief {
+  margin-bottom: 20px;
+}
+
+
+
+

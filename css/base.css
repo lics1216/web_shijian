@@ -1,0 +1,12 @@
+.vertical-horizontal-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-horizotal-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
