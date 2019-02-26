@@ -8,5 +8,5 @@
       * cd 项目根目录，
       * 运行命令 npm install
       * npm start
-      * http:localhost:3000/
+      * http://localhost:3000/
  
