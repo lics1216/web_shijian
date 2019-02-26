@@ -1,0 +1,25 @@
+{
+    "name": "lcs-demo",
+    "version": "1.0.0",
+    "description": "blog home page by vue + koa",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [
+        "koa",
+        "async"
+    ],
+    "author": "lcs",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": " "
+    },
+    "dependencies": {
+        "koa": "2.0.0",
+        "koa-bodyparser": "3.2.0",
+        "koa-router": "7.0.0",
+        "koa-static": "^5.0.0"
+    }
+}
